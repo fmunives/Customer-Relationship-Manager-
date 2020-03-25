@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 70px 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  float: left;
+}
+
+.options {
+  float: right;
+  margin: 21.4px 0;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-left: 40px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 14px;
+  height: 32px;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn i {
+  margin-left: 3px;
+}
+
+.btn-light {
+  border: 1px solid #c6cbd4;
+  color: #333333;
+  background-color: #fff;
+}
+
+.btn-blue {
+  border: 1px solid #4b74ff;
+  color: #fff;
+  background-color: #4b74ff;
+}
+
+.circle {
+  display: inline-block;
+  background-color: #0edd4d;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 9px;
+}
+
+.badge {
+  background-color: #4b74ff;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 15px;
+}
+
+.top-bar {
+  width: 80%;
+  float: right;
+}
+
+.navigation-bar {
+  width: 20%;
+  float: left;
+}
+
+.navigation-bar h2 {
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.navigation-bar .list-options {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navigation-bar .list-options a {
+  text-decoration: none;
+  color: #333333;
+  padding: 10px 30px;
+  display: inline-block;
+  cursor: pointer;
+  width: 177px;
+}
+
+.navigation-bar .list-options a:hover {
+  color: #4b74ff;
+  background-color: #d8dee7;
+  /* opacity: 0.25; */
+}
+
+.navigation-bar .list-options i {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.table {
+  width: 80%;
+  float: right;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #c6cbd4;
+}
+
+.table th {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.table th i {
+  margin-left: 15px;
+}
+
+.table th:hover {
+  color: #4b74ff;
+  opacity: 1;
+}
+
+.table th,
+.table td {
+  padding: 30px 0;
+}

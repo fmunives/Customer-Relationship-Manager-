@@ -3,7 +3,190 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ac6fc4de9c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Customer Relationship Manager</title>
   </head>
-  <body></body>
+  <body>
+    <header class="top-bar">
+      <h1 class="title">Clients</h1>
+      <div class="options">
+        <button class="btn btn-light">
+          Filter<i class="fas fa-sort-amount-down-alt"></i>
+        </button>
+        <button class="btn btn-blue">
+          Add new client <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </header>
+    <div class="navigation-bar">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="" />
+      </div>
+      <h2>Table UI Kit</h2>
+      <nav>
+        <ul class="list-options">
+          <li>
+            <a href=""><i class="fas fa-user-friends"></i>Clients</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-angle-double-left"></i>Reports</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-cog"></i>Seetings</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <table class="table">
+      <thead class="text-left">
+        <tr>
+          <th scope="col" class="text-center" colspan="2">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Company<i class="fas fa-arrow-down"></i></th>
+          <th scope="col">Status</th>
+          <th scope="col">Date</th>
+          <th scope="col">Revenue</th>
+          <th scope="col" colspan="2">Tags</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>90584</td>
+          <td>Kilgore Trout</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>31758</td>
+          <td>Jessie Santos</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>72043</td>
+          <td>Micheal Hawkins</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>67641</td>
+          <td>Marc Reed</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>5839</td>
+          <td>Wayne Malone</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>36458</td>
+          <td>Sylvia Holmes</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>50216</td>
+          <td>Eugenia King</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="selected" id="select" class="selected" />
+          </td>
+          <td>68312</td>
+          <td>Marie Schneider</td>
+          <td>Breakfast of Champions</td>
+          <td><span class="circle"></span> Active</td>
+          <td>9/12/2017</td>
+          <td>$3,321</td>
+          <td>
+            <label class="badge">Label</label>
+            <label class="badge">Label</label>
+          </td>
+          <td><i class="fas fa-ellipsis-v"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
